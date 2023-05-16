@@ -1,3 +1,6 @@
+LFS=/mnt/lfs
+TERM=xterm-256color
+
 mount -v --bind /dev $LFS/dev
 
 mount -v --bind /dev/pts $LFS/dev/pts
