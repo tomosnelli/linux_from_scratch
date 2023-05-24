@@ -1,3 +1,6 @@
+LFS=/mnt/lfs
+TERM=xterm-256color
+
 chroot "$LFS" /usr/bin/env -i   \
     HOME=/root                  \
     TERM="$TERM"                \
