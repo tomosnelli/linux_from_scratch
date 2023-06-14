@@ -1,2 +1,15 @@
-umount /dev/sda4
-umount /dev/sda2
+# assuming after logout
+
+LFS=/mnt/lfs
+
+umount -v $LFS/dev/pts
+mountpoint -q $LFS/dev/shm && umount $LFS/dev/shm
+umount -v $LFS/dev
+umount -v $LFS/run
+umount -v $LFS/proc
+umount -v $LFS/sys
+
+umount -v $LFS/home
+umount -v $LFS/boot
+umount -v $LFS
+
