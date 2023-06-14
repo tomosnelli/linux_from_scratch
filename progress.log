@@ -1,10 +1,11 @@
 Bookmark Progression
 
-2023/05/23 → IV. Building the LFS System: 8. Installing Basic System Software M4-1.4.19
-2023/05/24 → IV. Building the LFS System: 8. Installing Basic System Software Binutils-2.40
-2023/05/25 → IV. Building the LFS System: 8. Installing Basic System Software Shadow-4.13
-2023/05/27 → IV. Building the LFS System: 8. Installing Basic System Software XML::Parser-2.46
-2023/05/29 → IV. Building the LFS System: 8. Installing Basic System Software Python-3.11.2
-2023/05/30 → IV. Building the LFS System: 8. Installing Basic System Software Eudev-3.2.11 
-2023/06/12 → IV. Building the LFS System: 9.9 System Configuration Creating the /etc/shells file
-2023/06/13 → IV. Building the LFS System: 10.3 Making the LFS System Bootable
+2023/05/23 → 8. Installing Basic System Software M4-1.4.19
+2023/05/24 → 8. Installing Basic System Software Binutils-2.40
+2023/05/25 → 8. Installing Basic System Software Shadow-4.13
+2023/05/27 → 8. Installing Basic System Software XML::Parser-2.46
+2023/05/29 → 8. Installing Basic System Software Python-3.11.2
+2023/05/30 → 8. Installing Basic System Software Eudev-3.2.11 
+2023/06/12 → 9.9 System Configuration Creating the /etc/shells file
+2023/06/13 → 10.3 Making the LFS System Bootable
+2023/06/14 → 11.3 Rebooting the System
