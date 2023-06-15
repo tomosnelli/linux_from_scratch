@@ -1,4 +1,4 @@
-<h1>Linux From Scratch</h1>
+<h1>Linux From Scratch x86_64</h1>
 
 <p>This repository contains scripts and files for building a custom Linux distribution using the <a href="http://www.linuxfromscratch.org/">Linux From Scratch (LFS)</a> methodology. The scripts provided automate various steps of the LFS build process, making it easier to reproduce and customize the Linux distribution.</p>
 
@@ -30,7 +30,7 @@
   <li><code>make_limited_dir.sh</code>: A script to create a directory with limited permissions for security purposes.</li>
   <li><code>mount_partitions.sh</code>: A script to mount the necessary partitions before entering the chroot environment.</li>
   <li><code>mount_virtual_kernel_fs.sh</code>: A script to mount the virtual kernel file systems required by the LFS build process.</li>
-  <li><code>progress.log</code>: A log file that tracks the progress of the LFS build process.</li>
+  <li><code>progress.log</code>: A log file that tracks my progression in case of a host system failure</li>
   <li><code>README.md</code> (this file): An overview of the repository and its contents.</li>
   <li><code>start_up.sh</code>: A script to set up the initial environment before starting the LFS build process.</li>
   <li><code>transfer.sh</code>: A script to transfer essential files and scripts into the temporary LFS system.</li>
@@ -47,18 +47,8 @@
   <li>Clone this repository to your host system: <code>git clone https://github.com/your-username/linux-from-scratch.git</code>.</li>
   <li>Customize the scripts and files according to your requirements, if needed.</li>
   <li>Execute the scripts in the specified order, ensuring that you have the required permissions.</li>
-  <li>Monitor the <code>progress.log</code> file to track the progress of the build process and handle any errors that may occur.</li>
 </ol>
 
-<h2>Contributions</h2>
+<h2>Disclaimers</h2> 
 
-<p>Contributions to this repository are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
-
-<h2>Disclaimer</h2>
-
-<p>Please note that building a Linux distribution from scratch requires advanced knowledge and can be a complex process. Use this repository at your own risk. The author of this repository is not responsible for any damage or loss that may occur during the usage of these scripts.</p>
-
-<h2>License</h2>
-
-<p>The content of this repository is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
+<p>Please note that this LFS distribution was built with the intention of being run on a x86_64 system. Use this repository at your own risk. The author of this repository is not responsible for any damage or loss that may occur during the usage of these scripts.</p>
