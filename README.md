@@ -48,6 +48,11 @@
 </ul>
 <p>Please note that this partition configuration is specific to my setup. You may have a different partitioning scheme depending on your requirements.</p>
 
+<h2>Current Situation</h2>
+<p>
+Currently the LFS system boots correctly with login functioning. However some env variables are not set correctly. After setting variables up correctly, the next step will be attempting to add a GUI such as GNOME.
+</p>
+
 <h2>Usage</h2>
 
 <p>To build your custom Linux distribution using this repository, follow these steps:</p>
