@@ -38,6 +38,16 @@
   <li><code>wget-list-sysv</code>: A text file containing the list of URLs for downloading the necessary packages for the LFS build process.</li>
 </ul>
 
+<h2>Partition</h2>
+<p>My LFS system is currently installed on a secondary SATA drive (/dev/sda) and is partitioned as follows:</p>
+<ul>
+  <li><strong>/dev/sda1:</strong> This is the /boot partition.</li>
+  <li><strong>/dev/sda2:</strong> This is the root (/) partition.</li>
+  <li><strong>/dev/sda3:</strong> This is the swap partition.</li>
+  <li><strong>/dev/sda4:</strong> This is the /home partition.</li>
+</ul>
+<p>Please note that this partition configuration is specific to my setup. You may have a different partitioning scheme depending on your requirements.</p>
+
 <h2>Usage</h2>
 
 <p>To build your custom Linux distribution using this repository, follow these steps:</p>
