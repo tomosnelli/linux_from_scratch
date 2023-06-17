@@ -7,6 +7,7 @@
 <p>The repository has the following structure:</p>
 
 <pre>
+.
 ├── change_owner.sh
 ├── enter_chroot.sh
 ├── lfs-temp-tools-11.3.tar.xz
@@ -14,10 +15,12 @@
 ├── mount_partitions.sh
 ├── mount_virtual_kernel_fs.sh
 ├── progress.log
-├── README.md (this file)
+├── README.md
 ├── start_up.sh
 ├── transfer.sh
 ├── umount_partitions.sh
+├── user_bashrc
+├── user_dot_profile
 └── wget-list-sysv
 </pre>
 
@@ -35,6 +38,8 @@
   <li><code>start_up.sh</code>: A script to set up the initial environment before starting the LFS build process.</li>
   <li><code>transfer.sh</code>: A script to transfer essential files and scripts into the temporary LFS system.</li>
   <li><code>umount_partitions.sh</code>: A script to unmount the mounted partitions after exiting the chroot environment.</li>
+  <li><code>user_bashrc</code>: A .bashrc file for user prompt.</li>
+  <li><code>user_profile</code>: A .profile file for users to display prompt style at login</li>
   <li><code>wget-list-sysv</code>: A text file containing the list of URLs for downloading the necessary packages for the LFS build process.</li>
 </ul>
 
