@@ -20,7 +20,7 @@
 ├── transfer.sh
 ├── umount_partitions.sh
 ├── user_bashrc
-├── user_dot_profile
+├── user_profile
 └── wget-list-sysv
 </pre>
 
