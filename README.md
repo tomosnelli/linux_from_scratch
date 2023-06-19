@@ -1,8 +1,11 @@
-<h1>Linux From Scratch x86_64</h1>
+<h1>Linux From Scratch 11.3</h1>
 
 <p>This repository contains scripts and files for building a custom Linux distribution using the <a href="http://www.linuxfromscratch.org/">Linux From Scratch (LFS)</a> methodology. The scripts provided automate various steps of the LFS build process, making it easier to reproduce and customize the Linux distribution.</p>
 
+<code>LFS ID</code>: 30038
+
 <h2>Repository Structure</h2>
+<hr>
 
 <p>The repository has the following structure:</p>
 
@@ -44,6 +47,7 @@
 </ul>
 
 <h2>Partition</h2>
+<hr>
 <p>My LFS system is currently installed on a secondary SATA drive (/dev/sda) and is partitioned as follows:</p>
 <ul>
   <li><code>/dev/sda1</code>: This is the /boot partition.</li>
@@ -54,12 +58,13 @@
 <p>Please note that this partition configuration is specific to my setup. You may have a different partitioning scheme depending on your requirements.</p>
 
 <h2>Current Situation</h2>
+<hr>
 <p>
 Currently the LFS system boots correctly with login functioning. However some env variables are not set correctly. After setting variables up correctly, the next step will be attempting to add a GUI such as GNOME.
 </p>
 
 <h2>Usage</h2>
-
+<hr>
 <p>To build your custom Linux distribution using this repository, follow these steps:</p>
 
 <ol>
@@ -70,5 +75,5 @@ Currently the LFS system boots correctly with login functioning. However some en
 </ol>
 
 <h2>Disclaimers</h2> 
-
+<hr>
 <p>Please note that this LFS distribution was built with the intention of being run on a x86_64 system. Use this repository at your own risk. The author of this repository is not responsible for any damage or loss that may occur during the usage of these scripts.</p>
